@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header part with lot of hover effects like banner image effect, content effect, obviously navigation hover effect*/
+.navwrapper{
+    margin: auto;
+    width: 100%;
+    height: 80vh;
+    background-image: url(./imgs/5079835.jpg);
+    background-size: cover;
+      transition: 1.7s;
+      background-position: center;
+
+
+}
+.navwrapper:hover{
+
+    opacity: 0.9;
+    transition: 1.9s;
+
+
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(24, 20, 20, 0.4);
+   
+
+}
+.logo img{
+    margin-top: 10px;
+    width:120px;
+    padding-left: 35px;
+}
+nav{
+    
+}
+nav a{
+    padding: 0 35px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fdfffc;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+nav a:hover{
+    color: rgb(255, 0, 0);;
+    transition: 0.7s;
+}
+.banner{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:180px ;
+    border-radius: 2rem;
+    border: 4px solid #fff;
+    transition: 0.8s;
+}
+.banner:hover{
+    border: 3px solid #1ae982;
+    border-radius: 8rem;
+    transition: 0.7s;
+}
+.banner h2{
+    font-size: 50px;
+    color: #fff;
+    
+}
+.banner h2:hover{
+    letter-spacing: 1.5px;
+    transition: 0.7s;
+}
+.banner p{
+    margin: auto;
+    color: #fff;
+    max-width: 600px;
+    padding: 10px;
+}
+.banner p:hover{
+    
+    font-style: oblique;
+    transition: 0.7s;
+}
+.banner button{
+    margin: 10px 25px;
+    padding: 10px 25px;
+    background: #1ae982;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.banner button:hover{
+    background: #fff;
+    transition: 0.7s;
+}
+
+/* feature part*/
+.featureheading{
+    
+    width: 100%;
+    margin: 30px auto;
+}
+.featureheading h1{
+    text-align: center;
+    color: #088f4b;
+    font-size: 36px;
+    
+
+}
+.feature-content{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.feature{
+    width:30%;
+     box-shadow: 0px 0px 15px 15px rgba(26, 20, 20, 0.3);
+    padding: 20px;
+    transition: 2s;
+        
+}
+.feature h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.feature p{
+    text-align:justify;
+}
+
+/* use below code insted of .imgcenter (but you have to use inline css code: style="text-align:center;" */
+/*.feature img{
+    width: 220px;
+    align-items: center;
+}*/
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*  to show the equal height for feature imges(when you have diffrent size's images*/
+.imgcontainerheight{
+    height: 85px;
+    margin: 20px 0;
+      }
+.feature:hover{
+    background: #f0f1f0;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+
+/*two clm featureing*/
+
+.lfeature{
+    width: 38%;
+    display: flex;
+    justify-content: center;
+}
+.lfeature img{
+    max-width: 100%;
+    max-height: 100%;
+    padding-right: 15px;
+    
+}
+.rfeature{
+    width:60%;
+    padding: 90px;
+    box-shadow: 0px 0px 1px 1px rgba(26, 20, 20, 0.3);
+    
+    
+}
+.rfeature h2{
+    font-size: 50px;
+}
+.rfeature h3{
+    font-size: 40px;
+    font-weight:lighter;
+}
+.rfeature h4{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 10px 0;
+
+}
+progress{
+    width: 100%;
+    border-radius: 10px;
+    background: #979998;
+    border: none;
+    height: 30px;
+    
+}
+progress::-moz-progress-bar {
+  background: #088f4b;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    background-image: url(./imgs/5079835.jpg);
+    background-position: center;
+    
+}
+footer p{
+    margin: auto;
+    color: #fff;
+}
